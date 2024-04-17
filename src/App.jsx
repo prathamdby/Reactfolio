@@ -1,11 +1,11 @@
 import React from "react";
-import "./App.module.css";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <>
+    <div className={styles.App}>
       <h1>Hello, world!</h1>
-    </>
+    </div>
   );
 }
 
